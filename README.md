@@ -5,13 +5,16 @@ An Emacs pluging utilizing ido-mode to quickly open files inside a predefined pr
 ## Introduction
 
 ido-f3 allows you to quickly find a file inside a project directory tree by preloading the entire tree as a list of file-names and using ido-mode to choose between them.
+
 ido-f3 also allows you to easily switch between such projects, assuming all your projects are located in the same root directory.
+
 It is possible to load a directory outside the root projects directory using *f3-load-project*.
 
 ## Requirements
 
 - ido-mode
 - common-lisp (cl)
+
 Both of the above  ships with emacs 23.
 
 ## Usage
