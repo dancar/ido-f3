@@ -41,9 +41,6 @@
 ;; 1. Use *m-x f3-switch-project* to choose your current project. ido-f3 will then preload the entire project directory-tree to memory.
 ;; 1. Use *m-x f3* to visit a file in your project.
 
-;; It is highly recommended to bind *f3* and *f3-switch-project* to comfortable keys. I use x-c x-p and f8, respectively.
-
-
 (require 'cl)
 
 (setq f3-projects-dir "~/dev") ; 'Projects-directory' from which projects are selected using f3-switch-project
