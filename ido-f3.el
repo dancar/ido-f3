@@ -136,4 +136,4 @@
    "\n"
    t))
 
-(provide 'dancar-f3)
+(provide 'ido-f3)
