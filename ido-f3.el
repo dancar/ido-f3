@@ -110,6 +110,12 @@
       (ido-find-file-from-list f3-current-project-list f3-current-project-dir)
     (message "No project selected")))
 
+(defun f3-reload-project ()
+  "Reloads the current project"
+  (interactive)
+  (if (boundp 'f3-current-project-dir)
+      (f3-load-project f3-current-project-dir)
+    (message "No project selected")))
 
 (defalias 'f3 'f3-current-project)
 
